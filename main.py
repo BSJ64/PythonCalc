@@ -7,6 +7,7 @@ def baseCalc(starter, base):
         result = starter % base
         codeList.append(result)
         starter = round(starter / base)
+    codeList.reverse()
     print(*codeList)
 
 
